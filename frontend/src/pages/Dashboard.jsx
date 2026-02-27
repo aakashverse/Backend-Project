@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import API from "../api/axios";
 import Navbar from "../components/Navbar";
 import TaskForm from "../components/Form";
+const baseURL = import.meta.env.VITE_API_BASE_URL;
 
 export default function Dashboard() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
   const fetchTasks = async () => {
-    const res = await API.get("/tasks");
+    const res = await API.get(`${baseURL/tasks}`);
     setTasks(res.data);
   };
 
@@ -18,18 +19,18 @@ export default function Dashboard() {
 
   const addTask = async () => {
     if (!title) return;
-    await API.post("/tasks", { title });
+    await API.post(`${baseURL/tasks}`, { title });
     setTitle("");
     fetchTasks();
   };
 
   const deleteTask = async (id) => {
-    await API.delete(`/tasks/${id}`);
+    await API.delete(`${baseURL}/tasks/${id}`);
     fetchTasks();
   };
 
   const toggleStatus = async (task) => {
-    await API.put(`/tasks/${task._id}`, {
+    await API.put(`${baseURL}/tasks/${task._id}`, {
       status: task.status === "pending" ? "completed" : "pending",
     });
     fetchTasks();

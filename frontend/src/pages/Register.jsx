@@ -3,6 +3,7 @@ import API from "../api/axios";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
+const baseURL = import.meta.env.VITE_API_BASE_URL;
 
 export default function Register() {
   const [form, setForm] = useState({
@@ -17,9 +18,9 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await API.post("/auth/register", form);
+      await API.post(`${baseURL}/auth/register`, form);
       setMessage("Registration successful!");
-      setTimeout(() => navigate("/login"), 1000);
+      setTimeout(() => navigate(`${baseURL}/login`), 1000);
     } catch (err) {
       setMessage(err.response?.data?.message || "Error occurred");
     }
