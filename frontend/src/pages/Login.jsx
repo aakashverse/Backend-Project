@@ -17,7 +17,7 @@ export default function Login() {
     try {
       const res = await API.post(`${baseURL}/api/v1/auth/login`, form);
       login(res.data);
-      navigate(`${baseURL}/dashboard`);
+      navigate('/dashboard');
     } catch (err) {
       setMessage(err.response?.data?.message || "Login failed");
     }

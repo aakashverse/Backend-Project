@@ -20,7 +20,7 @@ export default function Register() {
     try {
       await API.post(`${baseURL}/api/v1/auth/register`, form);
       setMessage("Registration successful!");
-      setTimeout(() => navigate(`${baseURL}/login`), 1000);
+      setTimeout(() => navigate('/login'), 1000);
     } catch (err) {
       setMessage(err.response?.data?.message || "Error occurred");
     }
