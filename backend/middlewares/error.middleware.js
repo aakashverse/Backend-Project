@@ -1,5 +1,11 @@
-module.exports = (err, req, res, next) => {
-  res.status(500).json({
-    message: err.message || "Server Error",
+const logger = require("../config/logger");
+
+const errorHandler = (err, req, res, next) => {
+  logger.error(`${req.method} ${req.originalUrl} - ${err.message}`);
+
+  res.status(err.statusCode || 500).json({
+    message: err.message,
   });
 };
+
+module.exports = errorHandler;

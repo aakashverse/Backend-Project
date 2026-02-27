@@ -1,0 +1,23 @@
+2026-02-27T13:15:11.458Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+2026-02-27T13:16:00.817Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+2026-02-27T13:17:04.914Z [ERROR]: POST /api/v1/auth/login - user not found, Try Registering..
+2026-02-27T13:19:18.158Z [ERROR]: POST /api/v1/auth/login - Email is required!
+2026-02-27T13:19:33.657Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+2026-02-27T13:19:38.053Z [ERROR]: POST /api/v1/auth/login - password is not entered
+2026-02-27T13:20:08.990Z [ERROR]: POST /api/v1/auth/login - Email is required!
+2026-02-27T13:26:01.045Z [ERROR]: POST /api/v1/auth/register - Password length must be greater than 8
+2026-02-27T13:28:23.681Z [ERROR]: POST /api/v1/auth/register - Insufficient Credentials
+2026-02-27T13:28:27.863Z [ERROR]: POST /api/v1/auth/register - Insufficient Credentials
+2026-02-27T13:28:34.693Z [ERROR]: POST /api/v1/auth/register - Password length must be greater than 8
+2026-02-27T13:30:00.108Z [ERROR]: POST /api/v1/auth/login - user not found, Try Registering..
+2026-02-27T13:31:24.783Z [ERROR]: POST /api/v1/auth/login - Incorrect Password 
+2026-02-27T13:32:29.914Z [ERROR]: POST /api/v1/auth/login - Incorrect Password 
+2026-02-27T13:32:32.911Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+2026-02-27T13:32:36.067Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+2026-02-27T13:32:37.568Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+2026-02-27T13:32:37.983Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+2026-02-27T13:33:55.023Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+2026-02-27T13:34:02.585Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+2026-02-27T13:34:05.900Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+2026-02-27T13:34:12.432Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+2026-02-27T13:34:29.041Z [ERROR]: POST /api/v1/auth/login - Invalid credentials

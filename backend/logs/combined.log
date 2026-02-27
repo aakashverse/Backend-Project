@@ -1,0 +1,119 @@
+2026-02-27T13:13:09.878Z [INFO]: Server running on port 5000
+::1 - - [27/Feb/2026:13:13:34 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 457 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:13:34 +0000] "GET /api/v1/tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:13:34 +0000] "GET /api/v1/tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:04 +0000] "DELETE /api/v1/tasks/69a187902e10f2be9c30f92b HTTP/1.1" 200 21 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:04 +0000] "GET /api/v1/tasks HTTP/1.1" 200 384 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:05 +0000] "DELETE /api/v1/tasks/69a1878a2e10f2be9c30f928 HTTP/1.1" 200 21 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:06 +0000] "GET /api/v1/tasks HTTP/1.1" 200 193 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:11 +0000] "POST /api/v1/tasks HTTP/1.1" 201 190 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:12 +0000] "GET /api/v1/tasks HTTP/1.1" 200 384 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:16 +0000] "POST /api/v1/tasks HTTP/1.1" 201 191 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:14:16 +0000] "GET /api/v1/tasks HTTP/1.1" 200 576 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:15:11.458Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:15:11 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:16:00.817Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:16:00 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:26 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 457 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:26 +0000] "GET /api/v1/tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:26 +0000] "GET /api/v1/tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:45 +0000] "DELETE /api/v1/tasks/69a198a8a437733019160e0e HTTP/1.1" 200 21 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:45 +0000] "GET /api/v1/tasks HTTP/1.1" 200 384 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:51 +0000] "POST /api/v1/tasks HTTP/1.1" 201 191 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+::1 - - [27/Feb/2026:13:16:51 +0000] "GET /api/v1/tasks HTTP/1.1" 200 576 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:17:04.914Z [ERROR]: POST /api/v1/auth/login - user not found, Try Registering..
+::1 - - [27/Feb/2026:13:17:04 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 47 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:17:56.358Z [INFO]: Server running on port 5000
+2026-02-27T13:17:59.439Z [INFO]: Server running on port 5000
+2026-02-27T13:18:02.025Z [INFO]: Server running on port 5000
+2026-02-27T13:18:04.299Z [INFO]: Server running on port 5000
+2026-02-27T13:18:12.858Z [INFO]: Server running on port 5000
+2026-02-27T13:18:17.234Z [INFO]: Server running on port 5000
+2026-02-27T13:18:25.221Z [INFO]: Server running on port 5000
+2026-02-27T13:18:32.222Z [INFO]: Server running on port 5000
+2026-02-27T13:18:40.644Z [INFO]: Server running on port 5000
+2026-02-27T13:18:44.448Z [INFO]: Server running on port 5000
+2026-02-27T13:18:58.266Z [INFO]: Server running on port 5000
+2026-02-27T13:19:00.105Z [INFO]: Server running on port 5000
+2026-02-27T13:19:10.379Z [INFO]: Server running on port 5000
+2026-02-27T13:19:17.930Z [INFO]: Server running on port 5000
+2026-02-27T13:19:18.158Z [ERROR]: POST /api/v1/auth/login - Email is required!
+::1 - - [27/Feb/2026:13:19:18 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 32 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:19:31.835Z [INFO]: Server running on port 5000
+2026-02-27T13:19:33.613Z [INFO]: Server running on port 5000
+::ffff:127.0.0.1 - - [27/Feb/2026:13:19:33 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 39 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:19:33.657Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+2026-02-27T13:19:38.053Z [ERROR]: POST /api/v1/auth/login - password is not entered
+::ffff:127.0.0.1 - - [27/Feb/2026:13:19:38 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 37 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:19:51.681Z [INFO]: Server running on port 5000
+2026-02-27T13:19:58.768Z [INFO]: Server running on port 5000
+2026-02-27T13:20:08.990Z [ERROR]: POST /api/v1/auth/login - Email is required!
+::1 - - [27/Feb/2026:13:20:08 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 32 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:20:22.058Z [INFO]: Server running on port 5000
+2026-02-27T13:20:26.594Z [INFO]: Server running on port 5000
+2026-02-27T13:21:18.115Z [INFO]: Server running on port 5000
+2026-02-27T13:21:39.265Z [INFO]: Server running on port 5000
+2026-02-27T13:21:59.224Z [INFO]: Server running on port 5000
+2026-02-27T13:22:04.319Z [INFO]: Server running on port 5000
+2026-02-27T13:26:01.045Z [ERROR]: POST /api/v1/auth/register - Password length must be greater than 8
+::1 - - [27/Feb/2026:13:26:01 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:26:30.225Z [INFO]: Server running on port 5000
+2026-02-27T13:26:41.705Z [INFO]: Server running on port 5000
+2026-02-27T13:26:50.858Z [INFO]: Server running on port 5000
+2026-02-27T13:26:54.422Z [INFO]: Server running on port 5000
+2026-02-27T13:27:00.375Z [INFO]: Server running on port 5000
+2026-02-27T13:27:03.362Z [INFO]: Server running on port 5000
+2026-02-27T13:27:15.108Z [INFO]: Server running on port 5000
+2026-02-27T13:27:18.737Z [INFO]: Server running on port 5000
+2026-02-27T13:27:44.492Z [INFO]: Server running on port 5000
+2026-02-27T13:27:48.762Z [INFO]: Server running on port 5000
+2026-02-27T13:27:53.299Z [INFO]: Server running on port 5000
+2026-02-27T13:27:59.507Z [INFO]: Server running on port 5000
+2026-02-27T13:28:20.984Z [INFO]: Server running on port 5000
+2026-02-27T13:28:23.681Z [ERROR]: POST /api/v1/auth/register - Insufficient Credentials
+::1 - - [27/Feb/2026:13:28:23 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 38 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:28:27.863Z [ERROR]: POST /api/v1/auth/register - Insufficient Credentials
+::1 - - [27/Feb/2026:13:28:27 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 38 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:28:34.693Z [ERROR]: POST /api/v1/auth/register - Password length must be greater than 8
+::1 - - [27/Feb/2026:13:28:34 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:28:56.147Z [INFO]: Server running on port 5000
+2026-02-27T13:29:05.016Z [INFO]: Server running on port 5000
+2026-02-27T13:29:12.493Z [INFO]: Server running on port 5000
+::1 - - [27/Feb/2026:13:29:34 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 302 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:30:00.108Z [ERROR]: POST /api/v1/auth/login - user not found, Try Registering..
+::1 - - [27/Feb/2026:13:30:00 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 47 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:31:05.353Z [INFO]: Server running on port 5000
+2026-02-27T13:31:06.792Z [INFO]: Server running on port 5000
+2026-02-27T13:31:10.062Z [INFO]: Server running on port 5000
+2026-02-27T13:31:11.878Z [INFO]: Server running on port 5000
+2026-02-27T13:31:17.337Z [INFO]: Server running on port 5000
+2026-02-27T13:31:24.783Z [ERROR]: POST /api/v1/auth/login - Incorrect Password 
+::1 - - [27/Feb/2026:13:31:24 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:31:52.631Z [INFO]: Server running on port 5000
+2026-02-27T13:32:09.149Z [INFO]: Server running on port 5000
+2026-02-27T13:32:29.914Z [ERROR]: POST /api/v1/auth/login - Incorrect Password 
+::1 - - [27/Feb/2026:13:32:29 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:32:32.911Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+::1 - - [27/Feb/2026:13:32:32 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 39 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:32:36.067Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+::1 - - [27/Feb/2026:13:32:36 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 39 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:32:37.568Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+::1 - - [27/Feb/2026:13:32:37 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 39 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:32:37.983Z [ERROR]: POST /api/v1/auth/login - Insufficient Credentials!
+::1 - - [27/Feb/2026:13:32:37 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 39 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:33:07.137Z [INFO]: Server running on port 5000
+2026-02-27T13:33:11.619Z [INFO]: Server running on port 5000
+2026-02-27T13:33:14.360Z [INFO]: Server running on port 5000
+2026-02-27T13:33:35.036Z [INFO]: Server running on port 5000
+2026-02-27T13:33:38.161Z [INFO]: Server running on port 5000
+2026-02-27T13:33:46.548Z [INFO]: Server running on port 5000
+2026-02-27T13:33:55.023Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:33:55 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:34:02.585Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:34:02 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:34:05.900Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:34:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:34:12.432Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:34:12 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-02-27T13:34:29.041Z [ERROR]: POST /api/v1/auth/login - Invalid credentials
+::1 - - [27/Feb/2026:13:34:29 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 33 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"

@@ -3,6 +3,7 @@ import API from "../api/axios";
 import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });
@@ -52,9 +53,12 @@ export default function Login() {
           >
             Login
           </button>
+            <div className="flex justify-center text-md text-gray-800">
+                <Link to="/" className="hover:underline">Back to Registeration</Link>
+            </div>
 
           {message && (
-            <p className="mt-4 text-center text-sm text-green-500">{message}</p>
+            <p className="mt-4 text-center text-sm text-red-500">{message}</p>
           )}
         </form>
       </div>

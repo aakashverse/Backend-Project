@@ -69,7 +69,7 @@ export default function Register() {
           <Link to="/login" className="hover:underline">Login</Link>
           </div>
           {message && (
-            <p className="mt-4 text-center text-sm text-green-500">{message}</p>
+            <p className="mt-4 text-center text-sm text-red-500">{message}</p>
           )}
         </form>
       </div>
