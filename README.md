@@ -51,7 +51,7 @@ This project demonstrates:
 
 ## API Documentation
 
-Swagger UI available at: http://localhost:5000/api-docs
+Swagger UI available at: https://backend-project-eqz1.onrender.com/api-docs
 
 Includes:
 - Auth routes
