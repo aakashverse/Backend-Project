@@ -4,7 +4,6 @@ import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-const baseURL = import.meta.env.VITE_API_BASE_URL;
 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });
@@ -15,7 +14,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post(`${baseURL}/api/v1/auth/login`, form);
+      const res = await API.post('/auth/login', form);
       login(res.data);
       navigate('/dashboard');
     } catch (err) {
