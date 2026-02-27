@@ -1,10 +1,10 @@
-# 🚀 Task Manager API – Scalable Backend with JWT & Role-Based Access
+# Task Manager API – Scalable Backend with JWT & Role-Based Access
 
 A production-ready REST API built with Node.js, Express, and MongoDB featuring secure authentication, role-based access control, structured architecture, and Swagger documentation. Includes a basic React frontend for API interaction.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates:
 
@@ -19,7 +19,7 @@ This project demonstrates:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - Node.js
@@ -39,7 +39,7 @@ This project demonstrates:
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 1. User registers → password hashed using bcrypt  
 2. User logs in → JWT token generated  
@@ -49,7 +49,7 @@ This project demonstrates:
 
 ---
 
-## 📖 API Documentation
+## API Documentation
 
 Swagger UI available at: http://localhost:5000/api-docs
 
@@ -63,7 +63,7 @@ Includes:
 
 ---
 
-## 🧠 Scalability Considerations
+## Scalability Considerations
 
 This architecture supports scalability through:
 
@@ -83,7 +83,7 @@ Future Enhancements:
 
 ---
 
-## 🛡 Security Practices Implemented
+## Security Practices Implemented
 
 - Password hashing (bcrypt)
 - JWT token validation
@@ -94,7 +94,7 @@ Future Enhancements:
 
 ---
 
-## 📊 Sample API Endpoints
+## Sample API Endpoints
 
 | Method | Endpoint | Access |
 |--------|----------|--------|
@@ -106,17 +106,21 @@ Future Enhancements:
 
 ---
 
-## 🧪 Logs
+## Logs
 
-Application logs available in:
+Application logs available in: [backend/logs]
 
 Includes:
 - Server startup logs
 - API request logs
 - Error logs
+Logging:
+- Winston for structured logging
+- Morgan for HTTP request logging
+- Separate error and combined log files
 
 
-## Setup Instructions
+## Installation & Setup Instructions
 
 ### Backend
 
