@@ -23,15 +23,17 @@ exports.register = async (data) => {
 
 // login
 exports.login = async (email, password) => {
-  if(!email || !password || !email && !password) throw new Error("Insufficient Credentials!")
-
-  if(!password.length < 8) throw new Error("Invalid credentials")
-
   const user = await User.findOne({ email });
-  if (!user) throw new Error("user not found, Try Registering..");
+
+  if (!user) {
+    throw new Error("Invalid email or password");
+  }
 
   const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) throw new Error("Incorrect Password");
+
+  if (!isMatch) {
+    throw new Error("Invalid email or password");
+  }
 
   const token = jwt.sign(
     { id: user._id, role: user.role },
