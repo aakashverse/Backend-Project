@@ -9,7 +9,7 @@ export default function Dashboard() {
   const [title, setTitle] = useState("");
 
   const fetchTasks = async () => {
-    const res = await API.get(`${baseURL/tasks}`);
+    const res = await API.get(`${baseURL}/api/v1/tasks`);
     setTasks(res.data);
   };
 
@@ -25,12 +25,12 @@ export default function Dashboard() {
   };
 
   const deleteTask = async (id) => {
-    await API.delete(`${baseURL}/tasks/${id}`);
+    await API.delete(`${baseURL}/api/v1/tasks/${id}`);
     fetchTasks();
   };
 
   const toggleStatus = async (task) => {
-    await API.put(`${baseURL}/tasks/${task._id}`, {
+    await API.put(`${baseURL}/api/v1/tasks/${task._id}`, {
       status: task.status === "pending" ? "completed" : "pending",
     });
     fetchTasks();

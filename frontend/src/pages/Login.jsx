@@ -15,7 +15,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post(`${baseURL}/auth/login`, form);
+      const res = await API.post(`${baseURL}/api/v1/auth/login`, form);
       login(res.data);
       navigate(`${baseURL}/dashboard`);
     } catch (err) {

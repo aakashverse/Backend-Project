@@ -18,7 +18,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await API.post(`${baseURL}/auth/register`, form);
+      await API.post(`${baseURL}/api/v1/auth/register`, form);
       setMessage("Registration successful!");
       setTimeout(() => navigate(`${baseURL}/login`), 1000);
     } catch (err) {
